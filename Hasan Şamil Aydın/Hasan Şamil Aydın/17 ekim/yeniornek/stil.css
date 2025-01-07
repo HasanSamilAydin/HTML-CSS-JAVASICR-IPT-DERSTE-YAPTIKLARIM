@@ -1,0 +1,14 @@
+div{height: 10vh;
+    border: 3px solid black;
+    
+    flex-grow: 1;
+}
+
+.kapsakutu{display: flex;}
+.k1{border-top-color: yellow;}
+.k2{border-left-color: navy;}
+.k3{border-radius: 5px;}
+.k4{border-style: dotted;}
+.k5{border-top-style: groove;flex-grow: 3; background-color: brown;}
+.k6{border-bottom-style: hidden;}
+.k7{border-right: 10px dashed greenyellow;}

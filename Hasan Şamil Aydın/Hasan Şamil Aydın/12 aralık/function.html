@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    
+</head>
+<script>
+function mesaj(){
+alert("Virus\nTespit Edildi");
+}
+
+function mesaj2(){
+prompt("Başlık","Merhaba Adın Ne?");
+}
+
+function degisken(){
+let x,y,z;
+x=10;
+y=5.15;
+z=x+y;
+document.getElementById("kutu1").innerText = z;
+meslek=" Aşçı";
+document.getElementById("kutu1").innerText += meslek;
+deger="65";
+z= x + y + deger;
+document.getElementById("kutu2").innerText = z;
+z = x + y + Number(deger);
+document.getElementById("kutu3").innerText = z;
+
+}
+
+
+</script>
+<body>
+<div id="kutu1"></div>
+<div id="kutu2"></div>
+<div id="kutu3"></div>
+<button onclick="mesaj()">Free İndir</button>
+<button onclick="mesaj2()">İndermek İcin Doldur</button>
+<button onclick="degisken()">Tıkla</button>
+
+    
+</body>
+</html>

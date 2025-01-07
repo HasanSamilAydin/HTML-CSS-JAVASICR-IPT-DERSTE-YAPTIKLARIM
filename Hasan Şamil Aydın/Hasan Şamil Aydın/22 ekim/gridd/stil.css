@@ -1,0 +1,10 @@
+.kapsayici{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 10vh 20vh 35vh;
+    gap: 1vw;
+    padding: 10px;
+}
+
+.kapsayici div{background-color: gray;}

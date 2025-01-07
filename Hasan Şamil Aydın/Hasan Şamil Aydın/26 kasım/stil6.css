@@ -1,0 +1,31 @@
+main{
+    background-color: aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 80%;
+}
+
+.kart{position: relative;
+}
+
+.kart img{width: 100%;}
+
+.kart .slogan{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: white;
+
+}
+.kart .marka{border: 1px solid black;
+position: absolute;
+background-color: white;
+font-size: 15px;
+top: 50%;
+left: 10px;
+padding: 20px;}

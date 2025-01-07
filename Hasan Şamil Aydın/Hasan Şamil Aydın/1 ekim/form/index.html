@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="giris" action="giris.html" method="get"></form>
+    <fieldset>
+        <legend>Kişisel Bilgier</legend>
+    <label>Ad:</label> <input type="text" placeholder="0-100 Arasında"><br>
+    <label>SoyAd:</label> <input type="text" value="0"><br>
+    <label>Cinsiyet:</label> <br>
+    <input type="radio" name="cins">Erkek <br>
+    <input type="radio" name="cins">Kadın <br>
+    <label>Doğum Yeri:</label> <br>
+    <select name="iller" size="1">
+    <option value="10">Balıkesir</option>
+    <option value="81">Düzce</option>
+    <option value="34">İstanbul</option><br>
+    </select>
+    <label for="number"></label>
+    <label for="">Doğum Tarihi</label>
+    <input type="date"> <br>
+    <label for="">Doğum Saati</label>
+    <input type="time"> <br>
+    <input type="submit" value="Gönder">
+    
+    </fieldset>
+    <fieldset>
+        <legend>Üyelik Bilgileri</legend>
+    <label for="">Tel Numarası</label>
+    <input type="tel"> <br>
+    <label">E-Posta</label>
+    <input type="email"> <br>
+    <label>Kullanıcı Adı:</label> <input type="text" placeholder="0-100 Arasında"><br>
+    <label>Şifre:</label> <input type="password" value="0"><br>
+    <input type="submit" value="Gönder">
+    </fieldset>
+    <fieldset>>
+        <legend>Hobilerin</legend>
+    <input type="checkbox" name="k1">Zula
+    <input type="checkbox" name="k2">LoL
+    <input type="checkbox" name="k3">Pabci Mobil
+    <input type="checkbox" name="k4">Brawl Stars <br>
+    <label>Gezmek İstediğim Yerler::</label> <br>
+    <select name="iller" multiple>
+    <option value="10">Balıkesir</option>
+    <option value="81">Düzce</option>
+    <option value="34">İstanbul</option><br>
+    </select> <br>
+    <label>Sevdiğiniz Renk</label><br>
+    <input type="color" name="renk"> <br>
+    <label>Kendinizi Tanıtın</label> <br>
+    <textarea rows="5" cols="20"></textarea>
+    <label for="">Film Oylaması</label> <br>
+    <label for="">Enes Batur: Gerçek Kahraman</label>
+    <meter min="0" low="40" high="90" max="100" value="70"></meter> <br>
+    </fieldset>
+    <button type="reset" value="Temizle"></button>
+    <input type="submit" name="Gönder">
+    
+
+</body>
+</html>

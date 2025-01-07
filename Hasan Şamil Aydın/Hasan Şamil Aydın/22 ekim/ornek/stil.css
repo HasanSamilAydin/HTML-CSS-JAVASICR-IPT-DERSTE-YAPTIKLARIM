@@ -1,0 +1,13 @@
+.kapsa{border: lightgray solid 2px;
+background-color:   lightgray;
+height: 60vh;
+width: 50vw;
+padding: 20px;}
+
+.border1{border: black dashed 1px;}
+
+
+a{text-decoration: none;color: red;}
+
+.s1, .border1{margin: 10px;}
+

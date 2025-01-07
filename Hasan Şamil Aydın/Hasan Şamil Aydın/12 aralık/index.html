@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+function topla(){
+let s1,s2,sonuc;
+s1=document.getElementById("sayi1").value;
+s2=document.getElementById("sayi2").value;
+sonuc= Number(s1)+ Number(s2);
+document.getElementById("sonuc").innerHTML=sonuc;
+}
+function cikar(){
+let s1,s2,sonuc;
+s1=document.getElementById("sayi1").value;
+s2=document.getElementById("sayi2").value;
+sonuc= Number(s1)- Number(s2);
+document.getElementById("sonuc").innerHTML=sonuc;
+}
+function carp(){
+let s1,s2,sonuc;
+s1=document.getElementById("sayi1").value;
+s2=document.getElementById("sayi2").value;
+sonuc= Number(s1)* Number(s2);
+document.getElementById("sonuc").innerHTML=sonuc;
+}
+function bol(){
+let s1,s2,sonuc;
+s1=document.getElementById("sayi1").value;
+s2=document.getElementById("sayi2").value;
+sonuc= Number(s1)/ Number(s2);
+document.getElementById("sonuc").innerHTML=sonuc;
+}
+</script>
+<body>
+    Sayı1: <input type="text" id="sayi1">
+    Sayı2: <input type="text" id="sayi2">
+    Sonuc: <span id="sonuc"></span>
+    <button onclick="topla()">TOP</button>
+    <button onclick="cikar()">CİK</button>
+    <button onclick="carp()">CAR</button>
+    <button onclick="bol()">BOL</button>
+    
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let x = 30;
+    function renk1(){
+        document.getElementsByTagName("body")[0].style.backgroundColor="red";
+
+    }
+    function renk2(){
+        document.getElementsByTagName("body")[0].style.backgroundColor="blue";
+    }
+    function buyut(){
+        x += 5;
+        document.getElementById("txt").style.fontSize = x + "px";
+        document.getElementById("ktxt").value = "Yazı Boyutu : "+ x;
+    }
+    function kucult(){
+        x -= 5;
+        document.getElementById("txt").style.fontSize = x + "px";
+        document.getElementById("ktxt").value = "Yazı Boyutu : "+ x;
+    }
+
+</script>
+<body>
+    <div class="buton">
+        <button class="btn" onmousemove="renk1()" onclick="buyut()">+</button>
+        
+        <button class="btn" onmousemove="renk2()" onclick="kucult()">-</button>
+    </div><br>
+    <input type="text" disabled id="ktxt" value="Yazı Boyutu: 30">
+    <h1 id="txt">Merhaba</h1>
+</body>
+</html>

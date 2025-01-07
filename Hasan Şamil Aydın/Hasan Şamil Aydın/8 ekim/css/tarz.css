@@ -1,0 +1,12 @@
+#k1,#k2,#k3{        /*tum kutulara uygular*/
+    background-color: navy;           
+    width: 100vw;
+    height: 30vh;
+}
+img{
+    width: 10vw;              /*fotoların boyutu*/
+    height: 10vw;
+}
+
+#k1 p{background-color: bisque;}       /*loremin arka plaı degisir*/
+#k1 p::first-letter{font-size: 10vh;}      /*ilk harfi font buyuklugu degisir*/

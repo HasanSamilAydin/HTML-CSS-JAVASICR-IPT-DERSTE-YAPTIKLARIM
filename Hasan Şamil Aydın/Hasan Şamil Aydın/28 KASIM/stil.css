@@ -1,0 +1,22 @@
+.renk{
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    font-size: 14px;
+}
+
+@media  screen and (min-width:600px)
+
+{
+    .renk{background-color: yellow;
+    width: 10wv;
+    font-size: 6px ;}
+}
+
+@media screen and (min-width:800px) {
+.renk {background-color: navy;
+    width: 100vw;
+    height: 100vh;
+    font-size: 14px;
+    color: aliceblue;}    
+}

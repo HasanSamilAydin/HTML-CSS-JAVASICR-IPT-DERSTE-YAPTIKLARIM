@@ -1,0 +1,29 @@
+.kapsakutu{background-color: gray;
+    border: 3px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+}
+
+.kapsakutu div{
+border: gray solid 4px;
+background-color: aquamarine;
+width: 24vw;
+
+}
+
+.k1, .k2, .k3, .k4{
+    height: 12vh;
+}
+
+.k5, .k6, .k7, .k8{
+    height: 18vh;
+}
+
+.k9, .k10, .k11{
+    height: 8vh;
+}
+
+
+

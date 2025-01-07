@@ -1,0 +1,11 @@
+#kapsa{width:500px;height:500px;background-color: aqua;
+position: relative;}
+#kutu1{width:100px;height:100px;background-color: red;
+position: absolute;bottom: 10px;right: 10px;}
+#kutu2{width:100px;height:100px;background-color: yellow;
+position: fixed;
+bottom: 10px;
+right: 10px;}
+#kutu3{width:100px;height:100px;background-color: navy;
+position: sticky;
+top: 10px;}

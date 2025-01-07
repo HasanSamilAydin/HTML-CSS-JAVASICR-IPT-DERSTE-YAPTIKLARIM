@@ -1,0 +1,17 @@
+div{margin: 10px;}
+
+.s1{background-color: yellow;
+height: 10vw;}
+
+.s2{background-color: red;
+height: 5vw;
+position: sticky;
+top: 10px;
+}
+
+.s3{background-color: gray;
+height: 50vw;}
+
+.s4{background-color: purple;
+    height: 7vw;
+    text-shadow: red 2px 2px 3px;}           /*yazıyo gölge verir*/

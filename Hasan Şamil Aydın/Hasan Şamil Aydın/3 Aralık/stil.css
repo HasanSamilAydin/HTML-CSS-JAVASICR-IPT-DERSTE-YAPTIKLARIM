@@ -1,0 +1,11 @@
+#dondur{
+    transform: rotate(20deg);
+}
+#uzat{transform: skewY(20deg);}
+#buyut{transform: scale(2.2);}
+.galeri{display: grid;
+grid-template-columns: 1fr 1fr 1fr;}
+
+.galeri img{max-width: 15vw;
+transition: all 2s;}
+.galeri img:hover{background-color: black;}

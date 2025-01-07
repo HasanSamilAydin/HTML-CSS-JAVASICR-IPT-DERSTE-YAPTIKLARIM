@@ -1,0 +1,31 @@
+.ma{border: solid sandybrown;
+    padding: 5px;
+    height: 3vh;
+    
+    background-color: sandybrown;
+    color: white;}
+
+.wm{border: solid darkslateblue;
+    padding: 5px;
+    height: 30vh;
+    
+    background-color: darkslateblue;}
+
+.hm{border: solid sandybrown;
+    padding: 5px;
+    height: 8vh;
+    
+    background-color: sandybrown;
+    color: black;}
+
+a{text-decoration: none;
+    color: white;
+    display: inline-block;}
+
+.menu{
+    text-align: right;
+    
+    
+    
+}
+
