@@ -1,0 +1,11 @@
+body{background-color: aliceblue;}
+.k2:hover{background-color: black;color: white;}
+a{text-decoration: none;color: black;font-size: 2vw;border: 2px solid green;display: inline-block;text-align: center;
+}
+a:hover{background-color: aqua;}
+.k1{border: 0.1vw dashed red;width: 28vw; text-align: center;font-size: large; padding: 1vw;margin: 1vw;}
+.k1 img{width: 19vw;}
+.kapsa{display: flex;flex-wrap: wrap;}
+.k2{border: 0.1vw dashed red;width: 15vw; text-align: center;font-size: large; padding: 1vw;}
+.k2 img{width: 15vw;}
+.kapsan1{display: flex;flex-wrap: nowrap;}

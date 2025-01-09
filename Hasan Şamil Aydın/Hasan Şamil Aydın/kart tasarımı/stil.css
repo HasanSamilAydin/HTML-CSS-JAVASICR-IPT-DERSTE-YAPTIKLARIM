@@ -1,0 +1,23 @@
+.kisiler{width: 250px;
+    height: 325px;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 5px 3px 5px black;
+    display: inline-block;
+    margin: 10px;
+    }
+    
+    
+    .binalar img{
+        width: 100%;
+        height: 50%;
+       
+        border-radius: 20px;
+    }
+
+    .foto img{border-radius: 1000px;
+    width: 90px;
+    height: 90px;
+    position: relative;
+    left: 85px;
+    bottom: 45px;}

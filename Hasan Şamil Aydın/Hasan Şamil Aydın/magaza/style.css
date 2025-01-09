@@ -1,0 +1,15 @@
+div{
+    width: 100vw;
+    height:20vh;
+    background-color: white;
+    
+}
+#kutu1{background-color: goldenrod;text-align: center; color: white;font-size: large;}
+#sekme{width: 100vw; height: 35px; background-color: black;}
+a{text-decoration: none;color: white;font-size: 20px; display: inline-block;padding: 5px;}
+a:hover{background-color: grey;}
+.gonder1{display: flex; padding: 10px; border: 1px solid;margin: 10px;}
+
+#kutu1{
+    margin: 10px;
+}
